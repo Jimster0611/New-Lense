@@ -51,7 +51,7 @@ export function HomeScreen() {
       {/* Main */}
       <main className={styles.main}>
         <section id="page1" className={styles.page}>
-          <h1 className={styles.title}>Lenses!</h1>
+          <h1 className={styles.h1}>Lenses!</h1>
 
           <Link className={styles.link_page_2} to="/output">
             <button type="button">
@@ -74,16 +74,13 @@ export function HomeScreen() {
           */}
         </section>
 
-        <section id="page2" className={styles.page}>
-          {/* Page 2 content */}
-        </section>
 
         <section id="page3" className={styles.page}>
           {/* Page 3 content */}
         </section>
 
         <section id="page4" className={styles.page}>
-          {/* Page 4 content */}
+          <h1> saddsa</h1>
         </section>
       </main>
 
