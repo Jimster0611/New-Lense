@@ -84,7 +84,7 @@ export function HomeScreen() {
         </section>
 
         <section id="page4" className={styles.page}>
-          <h1> saddsa</h1>
+          <h1> </h1>
         </section>
       </main>
 
