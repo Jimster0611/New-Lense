@@ -192,8 +192,8 @@
   font-weight: 700;
   cursor: pointer;
   border: 1px solid rgba(255, 253, 253, 0.852);
-  background: rgb(255, 255, 255);
-  color: white;
+
+
 }
 
 .loginBtn:hover,
