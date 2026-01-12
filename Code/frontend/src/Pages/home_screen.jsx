@@ -32,23 +32,24 @@ export function HomeScreen() {
         <nav className={styles.navbar}>
           <ul className={styles.navList}>
             <li className={styles.navItem}>
-              <a href="#page1">Page1_temp</a>
+              <a href="#page1">Home</a>
             </li>
             <li className={styles.navItem}>
-              <a href="#page2">Page2_temp</a>
+              <a href="#page2">Check</a>
             </li>
             <li className={styles.navItem}>
-              <a href="#page3">Page3_temp</a>
+              <a href="#page3">Hello</a>
             </li>
             <li className={styles.navItem}>
-              <a href="#page4">Page4_temp</a>
+              <a href="#page4">About</a>
             </li>
           </ul>
-        </nav>
-        <div className={styles.authButtons}>
+                  <div className={styles.authButtons}>
           <button type="button" className={styles.loginBtn}>Log in</button>
           <button type="button" className={styles.signupBtn}>Sign up</button>
         </div>
+        </nav>
+
       </header>
       
 

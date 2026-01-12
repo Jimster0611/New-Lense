@@ -55,14 +55,17 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 14px 24px;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 10px;
+  background-color: #262626;
 }
 
 .navbar {
   flex: 1;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .navList {
@@ -178,6 +181,7 @@
 .authButtons {
   display: flex;
   gap: 10px;
+  margin-left: auto;
 }
 
 .loginBtn,
