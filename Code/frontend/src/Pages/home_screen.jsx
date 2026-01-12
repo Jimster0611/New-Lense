@@ -45,6 +45,10 @@ export function HomeScreen() {
             </li>
           </ul>
         </nav>
+        <div className={styles.authButtons}>
+          <button type="button" className={styles.loginBtn}>Log in</button>
+          <button type="button" className={styles.signupBtn}>Sign up</button>
+        </div>
       </header>
 
       {/* Main */}
