@@ -5,6 +5,8 @@ import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import { HomeScreen } from './Pages/home_Screen';
 import { Page1 } from './Pages/page1';
 import { Output } from './Pages/output';
+import { Login } from "./Pages/login";
+import { Signup } from "./Pages/signup";
 
 function App() {
   
@@ -14,7 +16,8 @@ function App() {
         <Route path = "/" element ={<HomeScreen/>}/>
         <Route path = "/page1" element ={<Page1/>}/>
         <Route path = "/output" element ={<Output/>}/>
-
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
       </Routes>
     </Router>
   )
