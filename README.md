@@ -8,6 +8,6 @@ To Run the code:
 
 Stuff Needed to start coding/run code:
 
-Frontend: NEW-LENSE -> Code -> frontend type in terminal "npm install"
+1. To get Frontend working, go to (NEW-LENSE -> Code -> frontend directory) and then type in terminal "npm install"
 
-Backend: NEW-LENSE -> Code -> backend type in terminal "pip install -r requirements.txt"
+2. To get Backend working, go to (NEW-LENSE -> Code -> backend) and then type in terminal "pip install -r requirements.txt"
