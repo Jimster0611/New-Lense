@@ -3,9 +3,12 @@
 #3. Runs startup logic like loading ML models once
 #4. Initialize the DB client so /analyze is fast
 
-# to run the back
+
+
+# to install all the dependencies required to run the backend on ur laptop/pc
 #pip install -r requirements.txt
 
+#whenver changes are made, c + v the bottom, reloads and allows u to run
 #uvicorn app.main:app --reload
 
 from fastapi import FastAPI
